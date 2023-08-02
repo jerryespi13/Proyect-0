@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1em;
+}
+header{
+    background-color: #333;
+    width: 100%;
+}
+main{
+    padding: auto;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
