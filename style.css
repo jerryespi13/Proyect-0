@@ -1,18 +1,53 @@
-body{
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
     font-size: 1.2rem;
     line-height: 1em;
 }
-header{
+
+header {
     background-color: #333;
     width: 100%;
 }
-main{
+
+main {
     padding: auto;
 }
+#tabla-valores table thead tr :first-child {
+    color: black;
+}
 
-footer{
+#tabla-valores table thead tr :nth-child(2) {
+    color: maroon;
+}
+
+#tabla-valores table thead tr :nth-child(3) {
+    color: blueviolet;
+}
+#tabla-valores table thead tr :last-child {
+    color: red;
+}
+
+#tabla-valores table tbody tr :first-child {
+    color: black;
+}
+
+#tabla-valores table tbody tr :nth-child(2) {
+    color: maroon;
+}
+
+#tabla-valores table tbody tr :nth-child(3) {
+    color: blueviolet;
+}
+
+#tabla-valores table tbody tr :last-child {
+    color: red;
+}
+
+#tabla-valores p{
+    font-size: smaller;
+}
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
