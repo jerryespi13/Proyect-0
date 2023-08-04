@@ -4,6 +4,10 @@ body {
     font-size: 1.2rem;
     line-height: 1em;
 }
+main{
+    background-color: azure;
+    text-align: justify;
+}
 
 header {
     background-color: #333;
@@ -11,7 +15,6 @@ header {
     position: fixed;
     height: 50px;
     font-size: 20px;
-
 }
 
 h1{
@@ -21,6 +24,35 @@ h1{
 main {
     padding: 60px;
 }
+
+.tabla-figura{
+    display: flex;
+}
+.tabla-figura picture img{
+    height: 200px;
+    display: block;
+    padding-left: 50%;
+}
+
+#tabla-valores{
+    text-align: center;
+}
+
+#tabla-valores table{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+#tabla-valores table td{
+    background-color: #d9d9d9;
+}
+#tabla-valores p{
+    font-weight: bold;
+}
+
 #tabla-valores table thead tr :first-child {
     color: black;
 }
