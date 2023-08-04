@@ -8,10 +8,18 @@ body {
 header {
     background-color: #333;
     width: 100%;
+    position: fixed;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+h1{
+    text-align: center;
 }
 
 main {
-    padding: auto;
+    padding: 60px;
 }
 #tabla-valores table thead tr :first-child {
     color: black;
