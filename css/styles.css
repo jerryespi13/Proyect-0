@@ -1,25 +1,38 @@
+footer p, main {
+  margin: 0 auto;
+}
+
+footer, header {
+  background-color: #333;
+  width: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
+  border: 0;
 }
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1em;
 }
 
 main {
-  width: 90%;
+  width: 80%;
   background-color: azure;
   text-align: justify;
   padding: 60px;
-  margin: 0 auto;
+}
+main p {
+  color: #524c56;
+  text-indent: 5%;
+  line-height: 200%;
+  font-size: 120%;
 }
 
 header {
-  background-color: #333;
-  width: 100%;
   position: fixed;
   height: 50px;
   font-size: 20px;
@@ -74,17 +87,20 @@ picture img {
   font-size: smaller;
 }
 
+#imagen-inyeccion {
+  height: 20rem;
+  object-fit: contain;
+}
+
 footer {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333;
   color: white;
   height: 3rem;
 }
-footer p {
-  margin: 0 auto;
+footer p strong a {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
