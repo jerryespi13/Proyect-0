@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  line-height: 1em;
+}
+
+main {
+  width: 90%;
+  background-color: azure;
+  text-align: justify;
+  padding: 60px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  height: 50px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+picture img {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+#grid-index .table td {
+  background-color: #d9d9d9;
+}
+
+#grid-index p {
+  font-weight: bold;
+  font-size: smaller;
+}
+
+#grid-index .table thead tr :first-child {
+  color: black;
+}
+
+#grid-index table thead tr :nth-child(2) {
+  color: blueviolet;
+}
+
+#grid-index table thead tr :nth-child(3) {
+  color: maroon;
+}
+
+#grid-index table thead tr :last-child {
+  color: red;
+}
+
+#grid-index table tbody tr :first-child {
+  color: black;
+}
+
+#grid-index table tbody tr :nth-child(2) {
+  color: blueviolet;
+}
+
+#grid-index table tbody tr :nth-child(3) {
+  color: maroon;
+}
+
+#grid-index table tbody tr :last-child {
+  color: red;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  height: 3rem;
+}
+
+footer p {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
