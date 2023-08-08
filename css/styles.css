@@ -46,6 +46,7 @@ header {
   position: fixed;
   height: 50px;
   font-size: 20px;
+  z-index: 1000;
 }
 
 #pasos-insulina {
@@ -70,7 +71,7 @@ header {
 }
 .centrar-imagenes img {
   object-fit: fill;
-  height: 300px;
+  height: 400px;
 }
 
 h1 {
@@ -131,6 +132,25 @@ footer {
 }
 footer p strong a {
   color: white;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 40%;
+  animation-fill-mode: both;
 }
 
 /*# sourceMappingURL=styles.css.map */
