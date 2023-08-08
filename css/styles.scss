@@ -12,6 +12,10 @@ $color-fondo : azure;
     background-color: #333;
     width: 100%;
 }
+%imagen-primaria{
+    height: 20rem;
+    object-fit: contain;
+}
 
 *{
     padding: 0;
@@ -36,7 +40,6 @@ main{
         font-size: 120%;
     }
 }
-
 
 header {
     @extend %topes;
@@ -101,8 +104,11 @@ picture img{
     }
 }
 #imagen-inyeccion{
-    height: 20rem;
-    object-fit: contain;
+    @extend %imagen-primaria;
+}
+
+.banner{
+    @extend %imagen-primaria;
 }
 
 footer {
