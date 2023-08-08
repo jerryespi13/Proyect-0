@@ -42,43 +42,47 @@ picture img{
     text-align: left;
 }
 
-#grid-index .table td{
-    background-color: #d9d9d9;
-}
-#grid-index p{
-    font-weight: bold;
+//Ejemplo de anidación con la tabla del index
+#grid-index{
+    .table{
+        td{
+            background-color: #d9d9d9;
+        }
+        thead{
+            tr :first-child{
+                color: black;
+            }
+            tr :nth-child(2) {
+                color: $color-diabete-normal;
+            }
+            tr :nth-child(3) {
+                color: $color-prediabete;
+            }
+            tr :last-child {
+                color: $color-diabete;
+            }
+        }
+        tbody{
+            text-align: center;
+            tr :first-child {
+                color: black;
+                text-align: left;
+            }
+            tr :nth-child(2) {
+                color: $color-diabete-normal;
+            }
+            tr :nth-child(3) {
+                color: $color-prediabete;
+            }
+            tr :last-child {
+                color: $color-diabete;
+            }
+        }
+    }
+    p{
+        font-weight: bold;
     font-size: smaller;
-}
-
-#grid-index .table thead tr :first-child {
-    color: black;
-}
-
-#grid-index table thead tr :nth-child(2) {
-    color: $color-diabete-normal;
-}
-
-#grid-index table thead tr :nth-child(3) {
-    color: $color-prediabete;
-}
-#grid-index table thead tr :last-child {
-    color: $color-diabete;
-}
-
-#grid-index table tbody tr :first-child {
-    color: black;
-}
-
-#grid-index table tbody tr :nth-child(2) {
-    color: $color-diabete-normal;
-}
-
-#grid-index table tbody tr :nth-child(3) {
-    color: $color-prediabete;
-}
-
-#grid-index table tbody tr :last-child {
-    color: $color-diabete;
+    }
 }
 
 footer {
@@ -89,7 +93,8 @@ footer {
     background-color: #333;
     color: white;
     height: 3rem;
-}
-footer p{
-    margin: 0 auto;
+
+    p{
+        margin: 0 auto;
+    }
 }

@@ -41,42 +41,37 @@ picture img {
 #grid-index .table td {
   background-color: #d9d9d9;
 }
-
-#grid-index p {
-  font-weight: bold;
-  font-size: smaller;
-}
-
 #grid-index .table thead tr :first-child {
   color: black;
 }
-
-#grid-index table thead tr :nth-child(2) {
+#grid-index .table thead tr :nth-child(2) {
   color: blueviolet;
 }
-
-#grid-index table thead tr :nth-child(3) {
+#grid-index .table thead tr :nth-child(3) {
   color: maroon;
 }
-
-#grid-index table thead tr :last-child {
+#grid-index .table thead tr :last-child {
   color: red;
 }
-
-#grid-index table tbody tr :first-child {
+#grid-index .table tbody {
+  text-align: center;
+}
+#grid-index .table tbody tr :first-child {
   color: black;
+  text-align: left;
 }
-
-#grid-index table tbody tr :nth-child(2) {
+#grid-index .table tbody tr :nth-child(2) {
   color: blueviolet;
 }
-
-#grid-index table tbody tr :nth-child(3) {
+#grid-index .table tbody tr :nth-child(3) {
   color: maroon;
 }
-
-#grid-index table tbody tr :last-child {
+#grid-index .table tbody tr :last-child {
   color: red;
+}
+#grid-index p {
+  font-weight: bold;
+  font-size: smaller;
 }
 
 footer {
@@ -88,7 +83,6 @@ footer {
   color: white;
   height: 3rem;
 }
-
 footer p {
   margin: 0 auto;
 }
