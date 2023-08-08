@@ -1,12 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #333;
     font-size: 1.2rem;
     line-height: 1em;
+    background: red;
 }
 main{
+    width: 90%;
     background-color: azure;
     text-align: justify;
+    padding: 60px;
+    margin: 0 auto;
+
 }
 
 header {
@@ -21,73 +29,56 @@ h1{
     text-align: center;
 }
 
-main {
-    padding: 60px;
+picture img{
+    width: 100%;
 }
 
-.tabla-figura{
-    display: flex;
-}
-.tabla-figura picture img{
-    height: 200px;
-    display: block;
-    padding-left: 50%;
-}
-
-#tabla-valores{
-    text-align: center;
-}
-
-#tabla-valores table{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+.table{
+    width: 100%;
     text-align: left;
-    
 }
 
-#tabla-valores table td{
+#grid-index .table td{
     background-color: #d9d9d9;
 }
-#tabla-valores p{
+#grid-index p{
     font-weight: bold;
-}
-
-#tabla-valores table thead tr :first-child {
-    color: black;
-}
-
-#tabla-valores table thead tr :nth-child(2) {
-    color: maroon;
-}
-
-#tabla-valores table thead tr :nth-child(3) {
-    color: blueviolet;
-}
-#tabla-valores table thead tr :last-child {
-    color: red;
-}
-
-#tabla-valores table tbody tr :first-child {
-    color: black;
-}
-
-#tabla-valores table tbody tr :nth-child(2) {
-    color: maroon;
-}
-
-#tabla-valores table tbody tr :nth-child(3) {
-    color: blueviolet;
-}
-
-#tabla-valores table tbody tr :last-child {
-    color: red;
-}
-
-#tabla-valores p{
     font-size: smaller;
 }
+
+#grid-index .table thead tr :first-child {
+    color: black;
+}
+
+#grid-index table thead tr :nth-child(2) {
+    color: maroon;
+}
+
+#grid-index table thead tr :nth-child(3) {
+    color: blueviolet;
+}
+#grid-index table thead tr :last-child {
+    color: red;
+}
+
+#grid-index table tbody tr :first-child {
+    color: black;
+}
+
+#grid-index table tbody tr :nth-child(2) {
+    color: maroon;
+}
+
+#grid-index table tbody tr :nth-child(3) {
+    color: blueviolet;
+}
+
+#grid-index table tbody tr :last-child {
+    color: red;
+}
+
 footer {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
