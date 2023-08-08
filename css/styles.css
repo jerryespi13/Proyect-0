@@ -36,11 +36,41 @@ main p {
   line-height: 200%;
   font-size: 120%;
 }
+main li {
+  color: #524c56;
+  line-height: 200%;
+  font-size: 100%;
+}
 
 header {
   position: fixed;
   height: 50px;
   font-size: 20px;
+}
+
+#pasos-insulina {
+  text-align: center;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.grid-layout picture {
+  text-align: center;
+  margin: auto auto auto auto;
+}
+.grid-layout picture img {
+  object-fit: fill;
+}
+
+.centrar-imagenes {
+  text-align: center;
+}
+.centrar-imagenes img {
+  object-fit: fill;
+  height: 300px;
 }
 
 h1 {
