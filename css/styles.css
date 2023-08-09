@@ -157,4 +157,16 @@ img {
   animation-fill-mode: both;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  main {
+    width: 100%;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 100px;
+  }
+  header {
+    font-size: medium;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
