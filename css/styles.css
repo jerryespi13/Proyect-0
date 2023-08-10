@@ -85,6 +85,9 @@ h1 {
   text-align: center;
 }
 
+picture {
+  margin-bottom: 10px;
+}
 picture img {
   width: 100%;
 }
@@ -172,6 +175,18 @@ img {
   }
   header ul {
     width: 100%;
+  }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+  }
+  .grid-layout picture {
+    text-align: center;
+    margin: auto;
+  }
+  .grid-layout picture img {
+    object-fit: fill;
   }
 }
 

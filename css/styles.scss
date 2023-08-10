@@ -89,8 +89,11 @@ h1{
     text-align: center;
 }
 
-picture img{
-    width: 100%;
+picture {
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
 }
 
 .table{
@@ -198,6 +201,18 @@ img{
         font-size: medium;
         ul{
             width: 100%;
+        }
+    }
+    .grid-layout{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        picture{
+            text-align: center;
+            margin: auto;
+            img{
+                object-fit: fill;
+            }
         }
     }
 
