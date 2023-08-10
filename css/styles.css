@@ -3,8 +3,8 @@ footer p, main {
 }
 
 footer, header {
-  background-color: #333;
   width: 100%;
+  background-color: #333;
 }
 
 .banner, #imagen-inyeccion {
@@ -157,7 +157,7 @@ img {
   animation-fill-mode: both;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media (max-width: 667px) {
   main {
     width: 100%;
     padding-left: 28px;
@@ -166,6 +166,9 @@ img {
   }
   header {
     font-size: medium;
+  }
+  header ul {
+    width: 100%;
   }
 }
 
