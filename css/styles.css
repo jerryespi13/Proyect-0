@@ -188,6 +188,9 @@ img {
   .grid-layout picture img {
     object-fit: fill;
   }
+  .grid-2 .centrar-imagenes img {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
