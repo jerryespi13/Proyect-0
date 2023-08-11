@@ -153,4 +153,24 @@ footer {
 ```
 >`Variables con SASS en el archivo SASS primeras lineas`
 - [x] En README.md, incluye una breve descripción de tu proyecto, opcionalmente, que contiene cada archivo, y cualquier otra información adicional para el staff.
+### Descripción de la pagina
+La página esta conformada por un navbar fijo en la parte superior de la pantalla el cual es responsivo gracias a una clase de botstrap, este navbar se vuelve un menú hamburguesa en dispositivos moviles.
 
+Contiene un footer en la parte baja de la página que contiene algunas clases CSS para darle estilo.
+
+>`Página index.hmtl`
+
+En esta página se muestra información a cerca de que es la diabetes, los tipos de diabetes que existen con sus respectivos sintomas y cuales son los niveles de glucosa según el tipo de diabetes.
+
+>`Página tratamiento.hmtl`
+
+En esta página se muestra información de algunos de los tratamientos que se deben de tomar en cuenta sobre una persona que padecie diabetes, ya sea su alimentación o tipo de medicina para cada tipo de diabetes.
+
+>`Página prevención.hmtl`
+
+En esta página se dan algunas recomendaciones que se deben de tomar para prevenir o retrasar el diagnostico de diabetes.
+
+
+>`Página inyeccion.hmtl`
+
+En esta página se explica paso a paso cómo administrar una inyección de insuluna, esta página contiene varias imagenes para dar una mejor referencia de lo que se esta hablando.
