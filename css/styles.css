@@ -184,6 +184,13 @@ img {
     width: 100%;
     padding: 2px;
   }
+  #grid-index div .table {
+    width: 100%;
+    text-align: left;
+  }
+  #grid-index div picture img {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -130,6 +130,7 @@ main article section ol div picture{
         font-size: smaller;
     }
 }
+
 #imagen-inyeccion{
     @extend %imagen-primaria;
 }
@@ -208,5 +209,17 @@ img{
     section picture img{
         width: 100%;
         padding: 2px;
+    }
+
+    #grid-index{
+        div{
+            .table{
+                width: 100%;
+                text-align: left;
+            }
+            picture img{
+                width: 100%;
+            }
+        }  
     }
 }
