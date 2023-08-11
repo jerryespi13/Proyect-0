@@ -8,7 +8,9 @@ footer, header {
 }
 
 .banner, #imagen-inyeccion {
-  height: 20rem;
+  margin: auto;
+  width: 100%;
+  height: 350px;
   object-fit: contain;
 }
 
@@ -65,67 +67,56 @@ header nav div {
   grid-template-columns: auto auto auto;
   gap: 10px;
 }
-.grid-layout picture {
-  text-align: center;
-  margin: auto auto auto auto;
-}
-.grid-layout picture img {
-  object-fit: fill;
-}
-
-.centrar-imagenes {
-  text-align: center;
-}
-.centrar-imagenes img {
-  object-fit: fill;
-  height: 400px;
-}
 
 h1 {
   text-align: center;
 }
 
 picture {
-  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 100%;
 }
 picture img {
-  width: 100%;
+  width: 50vh;
 }
 
-.table {
-  width: 100%;
-  text-align: left;
-}
-
-#grid-index .table td {
-  background-color: #d9d9d9;
-}
-#grid-index .table thead tr :first-child {
-  color: black;
-}
-#grid-index .table thead tr :nth-child(2) {
-  color: blueviolet;
-}
-#grid-index .table thead tr :nth-child(3) {
-  color: maroon;
-}
-#grid-index .table thead tr :last-child {
-  color: red;
-}
-#grid-index .table tbody {
+main article section ol div picture {
   text-align: center;
 }
-#grid-index .table tbody tr :first-child {
+
+#grid-index div .table {
+  width: 100%;
+  text-align: left;
+}
+#grid-index div .table td {
+  background-color: #d9d9d9;
+}
+#grid-index div .table thead tr :first-child {
+  color: black;
+}
+#grid-index div .table thead tr :nth-child(2) {
+  color: blueviolet;
+}
+#grid-index div .table thead tr :nth-child(3) {
+  color: maroon;
+}
+#grid-index div .table thead tr :last-child {
+  color: red;
+}
+#grid-index div .table tbody {
+  text-align: center;
+}
+#grid-index div .table tbody tr :first-child {
   color: black;
   text-align: left;
 }
-#grid-index .table tbody tr :nth-child(2) {
+#grid-index div .table tbody tr :nth-child(2) {
   color: blueviolet;
 }
-#grid-index .table tbody tr :nth-child(3) {
+#grid-index div .table tbody tr :nth-child(3) {
   color: maroon;
 }
-#grid-index .table tbody tr :last-child {
+#grid-index div .table tbody tr :last-child {
   color: red;
 }
 #grid-index p {
@@ -187,9 +178,6 @@ img {
   }
   .grid-layout picture img {
     object-fit: fill;
-  }
-  .grid-2 .centrar-imagenes img {
-    width: 100%;
   }
 }
 
