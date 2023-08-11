@@ -1,12 +1,45 @@
 # Project 0
-Web Programming with Python and JavaScript
+## Información del proyecto
+- Titulo:  `Información acerca de la diabetes`
+- Autor:  `Jerry Ronaldo Espino Inestroza`
+<!--- Video: [video]()-->
 
-## Requerimientos del proyecto:
-:white_check_mark: Tu sitio debe contener al menos 4 diferentes páginas .html, y debe ser posible entrar desde una página hasta otra siguiendo uno o más hipervínculos.
-:white_check_mark: Tu sitio debe contener al menos una lista (ordenada o desordenada), al menos una tabla y al menos una imagen.
-:white_check_mark: Tu sitio debe contener al menos una hoja de estilos.
-:white_check_mark: Tu sitio debe usar al menos 5 diferentes propiedades CSS, y al menos 5 selectores diferentes. Debes usar el selector de #id y el de .class al menos una vez.
-:white_check_mark: Tu sitio debe contener al menos un selector responsivo @media query, que debe aplicarse a pantallas más pequeñas.
-:white_check_mark: Debes usar bootstrap 4 en tu sitio, para utilizar al menos un componente de bootstrap, y al menos dos columnas de bootstrap usando su grid layout.
-:white_check_mark: Tus hojas de estilo deben contener al menos una variable SCSS, al menos un ejemplo de anidamiento SCSS y al menos un uso de herencia SCSS.
-:white_check_mark: En README.md, incluye una breve descripción de tu proyecto, opcionalmente, que contiene cada archivo, y cualquier otra información adicional para el staff.
+## Install & Dependence
+- SASS
+
+## Jerarquía del directorio
+```
+|—— css
+|    |—— styles.css
+|    |—— styles.css.map
+|    |—— styles.scss
+|—— diabete.ico
+|—— imagenes
+|    |—— Diabetes.jpg
+|    |—— diabetes.jpg.webp
+|    |—— inyeccion.jpg
+|    |—— inyeccion1.jpg
+|    |—— inyeccion2.jpg
+|    |—— inyeccion3.jpg
+|    |—— inyeccion4.jpg
+|    |—— inyeccion5.jpg
+|    |—— inyeccion6.jpg
+|    |—— inyeccion7.jpg
+|    |—— inyeccion8.jpg
+|—— index.html
+|—— inyeccion.html
+|—— prevencion.html
+|—— tratamiento.html
+|—— README.md
+```
+## Detalles del proyecto
+### Requerimientos solicitados
+- Tu sitio debe contener al menos 4 diferentes páginas .html, y debe ser posible entrar desde una página hasta otra siguiendo uno o más hipervínculos.
+- Tu sitio debe contener al menos una lista (ordenada o desordenada), al menos una tabla y al menos una imagen.
+- Tu sitio debe contener al menos una hoja de estilos.
+- Tu sitio debe usar al menos 5 diferentes propiedades CSS, y al menos 5 selectores diferentes. Debes usar el selector de #id y el de .class al menos una vez.
+- Tu sitio debe contener al menos un selector responsivo @media query, que debe aplicarse a pantallas más pequeñas.
+- Debes usar bootstrap 4 en tu sitio, para utilizar al menos un componente de bootstrap, y al menos dos columnas de bootstrap usando su grid layout.
+- Tus hojas de estilo deben contener al menos una variable SCSS, al menos un ejemplo de anidamiento SCSS y al menos un uso de herencia SCSS.
+- En README.md, incluye una breve descripción de tu proyecto, opcionalmente, que contiene cada archivo, y cualquier otra información adicional para el staff.
+
