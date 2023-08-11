@@ -184,6 +184,7 @@ img{
         padding-right: 28px;
         padding-top: 100px;
     }
+
     header{
         font-size: medium;
         ul{
@@ -193,13 +194,19 @@ img{
     .grid-layout{
         display: grid;
         grid-template-columns: auto;
-        gap: 10px;
+        gap: 5px;
+        
         picture{
             text-align: center;
             margin: auto;
             img{
                 object-fit: fill;
+                width: 100%;
             }
         }
+    }
+    section picture img{
+        width: 100%;
+        padding: 2px;
     }
 }
